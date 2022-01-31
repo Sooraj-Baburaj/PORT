@@ -1,0 +1,41 @@
+.Port_whyUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Port_whyUs-heading h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    font-weight: 100;
+}
+.Port_whyUs-info {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.whyUs-info-item {
+    width: 125px;
+    height: 155px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    margin: 20px 40px;
+}
+.whyUs-info-item-icon {
+    font-size: 50px;
+    height: 75px;
+}
+.whyUs-info-item-heading {
+    font-size: 15px;
+    color: #0066FF;
+}
+.whyUs-info-item-detail {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+}

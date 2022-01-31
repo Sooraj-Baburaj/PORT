@@ -1,0 +1,43 @@
+.Port_home {
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../images/automobile-3491753_1920.jpg');
+    background-size: cover;
+    position: relative;
+}
+.Port_home-content {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.space {
+    flex: 1;
+}
+.home-space-content {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.home-content {
+    width: 80%;
+}
+.social-media-icons {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+}
+.media-icons {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.media-icons a {
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}

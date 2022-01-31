@@ -1,0 +1,45 @@
+.Port_HowWeWork {
+    width: 100%;
+}
+.Port_HowWeWork-heading {
+    width: 100%;
+    text-align: center;
+}
+.Port_HowWeWork-heading h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    font-weight: 100;
+}
+.Port_HowWeWork-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.Port_HowWeWork-container-item {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-width: 300px;
+    max-width: 460px;
+}
+.HWW-icon {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 40px;
+}
+.HWW-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+.HWW-content-title {
+    padding: 10px 20px;
+}
+.HWW-content-desc {
+    padding: 5px 20px;
+}

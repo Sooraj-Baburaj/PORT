@@ -1,0 +1,69 @@
+.Port_services {
+    width: 100%;
+    background: rgba(0,255,0,0.08);
+}
+.Port_services-heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Port_services-heading h1 {
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    font-weight: 100;
+}
+.Port_services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Port_services-container-item {
+    width: 400px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    margin: 20px;
+    border-radius: 20px;
+    min-width: 300px;
+    flex: 1;
+}
+.Port_services-container-item img {
+    width: 90%;
+    padding-top: 20px;
+    height: 200px;
+    object-fit: cover;
+}
+.Port_services-container-item h2 {
+    text-align: center;
+    padding: 10px 5px;
+    color: #0066FF;
+}
+.Port_services-container-item p {
+    width: 90%;
+    text-align: center;
+    padding: 5px;
+}
+.Findservices-button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.Findservices-button button {
+    margin: 20px;
+    padding: 10px;
+    color: black;
+    background: white;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.Findservices-button button:hover {
+    background: black;
+    color: white;
+}
