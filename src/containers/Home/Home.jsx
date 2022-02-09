@@ -18,6 +18,7 @@ const Home = () => {
                     <p>Port is a digital product which helps a person carry their home appliances
                         safely from one place to another. It helps people by making it easy for them
                         to find the best mover and packers due to the rating system present in it.</p>
+                    <a href="/services"><button><span>Find services</span></button></a>
                     </div>
                 </div>
             </div>

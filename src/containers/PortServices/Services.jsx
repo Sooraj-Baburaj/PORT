@@ -15,7 +15,7 @@ const Services = () => {
           <h2>Office shifting</h2>
           <p>We design and plan out your office area. We incorporate pneumatic defer transport vehicle for your furnishings, proficient evacuation equipment, convenient outside lifts, just as specific staff and tradesmen.</p>
           <div className="Findservices-button">
-            <button>Find services</button>
+            <a href="/services"><button>Find services</button></a>
           </div>
         </div>
         <div className="Port_services-container-item">
@@ -23,7 +23,7 @@ const Services = () => {
           <h2>Packing and moving</h2>
           <p>While proficient qualified and custom-made moving Services is a perilous component, corporate clients additionally need option to use to data, benchmarking data and generally speaking arrangement association.</p>
           <div className="Findservices-button">
-            <button>Find services</button>
+          <a href="/services"><button>Find services</button></a>
           </div>
         </div>
         <div className="Port_services-container-item">
@@ -31,7 +31,7 @@ const Services = () => {
           <h2>Household shifting</h2>
           <p>We endow with whole home shifting as well as home stuff and property. These services for packing and moving as well as shifting are available from one residence to another within your town country or to far-off location.</p>
           <div className="Findservices-button">
-            <button>Find services</button>
+          <a href="/services"><button>Find services</button></a>
           </div>
         </div>
       </div>

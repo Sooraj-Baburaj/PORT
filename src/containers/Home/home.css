@@ -14,7 +14,6 @@
     flex: 1;
 }
 .home-space-content {
-    font-family: 'Poppins', sans-serif;
     display: flex;
     color: white;
     align-items: center;
@@ -24,6 +23,46 @@
 .home-content {
     width: 80%;
 }
+.home-content button {
+    padding: 10px 30px;
+    color: white;
+    cursor: pointer;
+    width: 180px;
+    border: 1px solid white;
+    transition: 0.3s;
+    background: transparent;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.home-content a {
+    color: inherit;
+    text-decoration: none;
+}
+.home-content button:hover {
+    color: black;
+    background: white;
+}
+.home-content button:hover span {
+    padding-right: 20px;
+}
+.home-content button:hover span::after {
+    opacity: 1;
+    right: 0;
+}
+.home-content button span {
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+.home-content button span::after {
+    content: '\00bb';
+    position: absolute;
+    font-size: 15px;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}   
 .social-media-icons {
     width: 100%;
     position: absolute;

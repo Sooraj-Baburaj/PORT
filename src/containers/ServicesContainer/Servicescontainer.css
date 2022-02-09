@@ -1,0 +1,16 @@
+.Port_ServicesContainer {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
+    position: relative;
+    margin-left: 300px;
+    flex-direction: column;
+}
+@media screen and (max-width: 900px) {
+    .Port_ServicesContainer {
+        margin: auto;
+        margin-left: 0;
+    }
+}

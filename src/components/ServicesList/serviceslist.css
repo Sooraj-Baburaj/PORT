@@ -1,0 +1,99 @@
+.Port_ServicesList {
+    width: 95%;
+    margin: 10px auto;
+    background: white;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    border-radius: 5px;
+    -webkit-tap-highlight-color: transparent;
+    animation: slideUp 0.5s;
+    box-shadow: 3px 5px 20px #cccccc, -5px -8px 20px #ffffff;
+}
+@keyframes slideUp {
+    0% {margin: 30px auto;}
+    100% {margin: 10px auto;}
+}
+.Port_ServicesList-icon {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 93px;
+}
+.Port_ServicesList-Details {
+    width: 75%;
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+}
+.Port_ServicesList-Details-bussName {
+    width: 100%;
+    padding: 10px 20px 0;
+}
+.Port_ServicesList-Details-rating {
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+.Port_ServicesList-Details-rating-icon {
+    padding: 0 5px;
+}
+.Port_ServicesList-Details-address {
+    width: 100%;
+    padding: 0 15px 10px;
+    display: flex;
+}
+.Port_ServicesList-Details-address-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+}
+.Port_ServicesList-Details-address-location {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    padding: 3px 5px 0;
+}
+.Port_ServicesList-Details-contact {
+    width: 60%;
+    display: flex;
+    position: absolute;
+    padding: 5px 15px 20px;
+    bottom: -40px;
+    justify-content: space-evenly;
+    animation: slideDown 0.5s;
+}
+@keyframes slideDown {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.Port_ServicesList-Details-contact a {
+    text-decoration: none;
+    color: inherit;
+}
+.Port_ServicesList-Details-contact button {
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    background: rgba(0,255,0,0.6);
+    border-radius: 5px;
+    border: none;
+}
+.Port_ServicesList-Details-contact button:hover {
+    background: rgba(0,255,0,0.9);
+}
+@media screen and (max-width: 700px){
+    .Port_ServicesList-Details-bussName {
+        font-size: 12px;
+    }
+    .Port_ServicesList-Details-contact {
+        width: 70%;
+        padding: 5px 15px 10px;
+    }
+}

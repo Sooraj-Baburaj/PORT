@@ -1,0 +1,42 @@
+.Port_AdminPanel {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Port_AdminPanel-form {
+    height: 500px;
+    border-radius: 15px;
+    background:rgba(0,255,0,0.3) ;
+    width: 95%;
+    max-width: 500px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Port_AdminPanel-form input {
+    margin: 15px 0;
+    width: 80%;
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    box-shadow:1px 2px 5px rgba(0,0,0,0.6) ;
+}
+.Port_AdminPanel-form button {
+    margin: 10px 0 0;
+    background: white;
+    color: black;
+    border: none;
+    transition: 0.3s;
+    box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.Port_AdminPanel-form button:hover {
+    background: black;
+    color: white;
+}

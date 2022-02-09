@@ -1,0 +1,33 @@
+.Port_Loading {
+    height: 500px;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader {
+    font-size: 30px;
+    animation: loadingAnim 2s infinite;
+}
+@keyframes loadingAnim {
+    0% {transition: rotate(0deg);}
+    50% {transition: rotate(180deg);}
+    75% {transition: rotate(270deg);}
+    100% {transition: rotate(360deg);}
+}
+.noResults {
+    display: flex;
+    flex-direction: column;
+}
+.noResults-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding: 20px;
+}
+.noResults-message {
+    text-align: center;
+    font-weight: 200;
+    padding: 0 30px;
+}

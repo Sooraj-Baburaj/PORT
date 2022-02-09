@@ -1,0 +1,65 @@
+.Port_AdminLogin {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Port_AdminLogin-header {
+    width: 95%;
+    max-width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Port_AdminLogin-Form {
+    height: 280px;
+    width: 95%;
+    max-width: 500px;
+    border-radius: 10px;
+    background: rgba(0,255,0,0.3);
+    box-shadow: 3px 5px 20px #cccccc, -5px -8px 20px #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Port_AdminLogin-Form input {
+    width: 85%;
+    height: 40px;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    box-shadow: 2px 3px 5px rgba(0,0,0,0.6) ;
+}
+.Port_AdminLogin-Form button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.6) ;
+    background: white;
+    color: black;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+button:hover {
+    color: white;
+    background: black;
+}
+.AdminLogin-message {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 15px;
+}
+.Port_AdminLogin p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 200;
+    width: 50%;
+}

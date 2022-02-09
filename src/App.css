@@ -4,7 +4,10 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
 .section-padding{
   padding: 50px 50px;
 }
